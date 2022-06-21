@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Neucha&family=Roboto:wght@100&display=swap");
+
+.App {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #2f74c0;
+  font-family: "Neucha", cursive;
+}
+.heading {
+  text-transform: uppercase;
+  font-size: 2.8rem;
+  z-index: 1;
+  text-align: center;
+}
+@media (max-width: 800px) {
+  .heading {
+    margin: 15px 0;
+    font-size: 35px;
+  }
+}
